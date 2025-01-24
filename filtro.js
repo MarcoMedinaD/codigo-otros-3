@@ -8,7 +8,7 @@ const productos = [
   {nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./zapato-rojo.jpg"}
 ]
 
-const li = document.getElementsByName("lista-de-productos")
+const li = document.getElementByName("lista-de-productos") /* Se modifica getElements a getElement */
 const $i = document.querySelector('.input');
 
 for (let i = 0; i < productos.length; i++) {

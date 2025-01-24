@@ -6,6 +6,8 @@ input {
 
 #lista-de-productos {
   display: flex
+  gap: 20px; /* Se añade espacio entre los productos */
+  justify-content: center; /* Se añada ára centrar los productos de forma horizontal */
 }
 
 .producto {
